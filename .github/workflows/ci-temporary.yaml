@@ -41,7 +41,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/amplication/temporary/temporary
+          images: ghcr.io/amplication/example-kubernetes-deployment/temporary
           flavor: latest=true
           tags: |
             type=sha,prefix=sha-

@@ -1,4 +1,4 @@
-# Default values for temporary. This is a YAML-formatted file.
+# Default values for flights. This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
@@ -53,7 +53,7 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: []
-  #  - secretName: chart-temporary-tls
+  #  - secretName: chart-flights-tls
   #    hosts:
   #      - server.example.com
 

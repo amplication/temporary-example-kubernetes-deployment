@@ -1,6 +1,6 @@
 {
-  "short_name": "temporary",
-  "name": "temporary",
+  "short_name": "flights",
+  "name": "flights",
   "icons": [
     {
       "src": "favicon.ico",

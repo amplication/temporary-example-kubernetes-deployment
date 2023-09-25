@@ -1,7 +1,7 @@
-name: continuous integration - temporary
+name: continuous integration - flights
 
 concurrency:
-  group: temporary
+  group: flights
   cancel-in-progress: true
 
 on:
@@ -41,7 +41,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/amplication/example-kubernetes-deployment/temporary
+          images: ghcr.io/amplication/example-kubernetes-deployment/flights
           flavor: latest=true
           tags: |
             type=sha,prefix=sha-

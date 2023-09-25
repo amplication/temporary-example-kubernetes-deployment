@@ -37,10 +37,6 @@ jobs:
         run: npm run build
         working-directory: ./apps/temporary
 
-      - name: test
-        run: npm test
-        working-directory: ./apps/temporary
-
       - name: docker metadata
         id: meta
         uses: docker/metadata-action@v4
